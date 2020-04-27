@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+}
+body{
+  text-align: center;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+.title{
+
+  position: relative;
+  z-index: 1;
+  width: 500px;  
+  height: 150px;  
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid grey;
+  text-align: center;
+ 
+
+}
+.title-text{
+  text-align: center;  
+  padding-top: 50px;
+  color : black;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  }
+
+.back-image-container{
+  position: relative;
+}
+
+.back-image{
+  position: absolute;
+  background-color: seashell;
+  width: 100%;
+      
+}
+
+#nav-bootstrap-overrides{
+  padding: 1.5rem 1rem;
+  background-color: #fff;
+  
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 550px;
+  height: 300px;  
+  
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.footer-title{
+  padding-bottom: 30px;
+}
+
+.footer-As{
+  display: inline;
+  padding: 1rem 1rem;
+  font-size: 150%;
+}
+
+.footer-tags{
+  margin: 50px auto;
+
+}
+
+@media (max-width: 1028px) {
+
+.back-image{
+  position: static;
+}
+
+.footer{
+  margin-top: 50px;
+}
+
+  
+
+}
+
+.footer-M{
+  margin-bottom: 0;
+}
+
+.logo{
+  width: 150px;
+
+}
