@@ -10,7 +10,7 @@ body{
 
   position: relative;
   z-index: 1;
-  width: 80%;  
+  width: 30%;  
   height: 150px;  
   margin: 0 auto;
   background-color: #fff;
@@ -85,6 +85,12 @@ body{
 .footer{
   margin-top: 50px;
 }
+  
+.title{
+  
+  width : 80%;
+  
+  }
 
   
 
